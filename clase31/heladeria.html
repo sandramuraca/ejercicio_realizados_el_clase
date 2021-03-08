@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const cantidadHelado = prompt (`ingrese la opción deseada: 1) 1/2 kilo, 2) 1 kilo, 3 ) 2 kilos`);
+        const gustoHelado1 = prompt ("Ingrese el primer gusto");
+        const gustoHelado2 = prompt ("Ingrese el segundo gusto");
+        const gustoHelado3 = prompt ("Ingrese el tercer gusto");
+
+        const nombreCliente = prompt ("Ingrese su nombre");
+        const cantidadCucuruchos = prompt ("Ingrese cantidad de cucuruchos que quiere comprar");
+        const adornos = prompt("Quiere agregar topings? Indique Si o No");
+        const envioDomicilio = prompt("Quiere envio a domicilio? Indique Si o No");
+        const formaDePago = prompt("Quiere pagar con tarjeta de débito? Indique Si o No");
+
+        const costoCucurucho = 20;
+        let precioToping = 0;
+        let costoDomicilio= 0;
+        let precioHelado = 0;
+        let descuentoAplicar = 1;
+        let pesoHelado = 0;
+        
+        if (cantidadHelado ==1){
+            precioHelado = 100
+            pesoHelado = "1/2 kilo de helado";
+        } else if (cantidad ==2){
+            precioHelado = 180
+            pesoHelado = "1 kilo de helado";
+        } else if (cantidad ==3){
+            precioHelado = 350
+            pesoHelado = "2 kilos de helado"
+        }else{
+            alert("opcion no valida")
+        }
+
+       
+        if (adornos == "si"){
+            precioToping = 50;
+        }
+
+        if (envioDomicilio == "si"){
+            costoDomicilio = 50;
+        }
+
+        if (formaDePago == "si"){
+            descuentoAplicar = 0.9;
+            mensaje = "Paga con tarjeta de débito"
+        } else if (formaDePago == "no"){
+            mensaje = "Paga en Efectivo"
+        }
+       
+        const precioFinal = (precioHelado + (cantidadCucuruchos*costoCucurucho) + precioToping + costoDomicilio) * descuentoAplicar;   
+
+        alert(`El cliente ${nombreCliente} pidio ${pesoHelado}. 
+        Los gustos que el cliente pidio son: ${gustoHelado1}, ${gustoHelado2}, ${gustoHelado3}.
+        El precio a abonar es $ ${precioFinal}.
+        La forma de pago elegida es: ${mensaje}
+        `);
+
+        
+        
+
+    </script>
+</body>
+</html>

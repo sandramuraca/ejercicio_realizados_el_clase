@@ -1,0 +1,15 @@
+Ejercicio Heladería
+
+Crear un programa que pida al usuario ingresar, por separado, tres gustos de helado, y luego muestre un mensaje que diga, por ejemplo, "Aquí tiene su helado de chocolate, dulce de leche y menta granizada".
+
+
+Ejercicio Años perro
+Crear un programa que pida ingresar una edad y devuelva el equivalente de esas edad en años perro.
+
+Ejercicio Presentacion - Funcniones
+Realizar una función que se llame "Presentacion". 
+Le enviaremos dos parametros:
+1) nombre
+2) edad
+Y me va a mostrar por alert:
+ => Su nombre es ____ y su edad es 

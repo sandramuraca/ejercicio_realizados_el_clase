@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        ///SOLO DOS OPCIONES TOMA SI ES MAYOR O MENOR DE 18 AÑOS
+       /* const edad = prompt ("Ingrese su edad actual");
+        if (edad >=18){
+            alert("debe votar");
+        } else {
+            alert("No puede votar");
+        }*/
+
+        //EN ESTE CASO son 3 opciones, menor a 18, entre 16 y18 años y mayor de 18 
+        /*const edad = Number(prompt ("Ingrese su edad actual"));
+        if (edad >=18){
+            alert("debe votar");
+        } else if (edad >=16) {
+            alert ("podes ir a votar");
+        } else{
+            //menor a 18
+            alert("No puede votar");
+            alert("volve el proximo año")
+        };*/
+
+        // en este caso son 4 opciones, menor de 18, entre 16 y 18, mayor de 18 y mayor de 65 años
+
+        const edad = Number(prompt ("Ingrese su edad actual"));
+       if (edad >=65){
+            alert("Podes votar")
+        } else if (edad >=18) {
+            alert ("DEBES ir a votar")
+        } else if (edad >=16) {
+            alert ("Podes ir a votar")
+        } else {
+            //menor a 18
+            alert("No puede votar")
+            alert("volve el proximo año")
+        } 
+
+
+
+    </script>
+</body>
+</html>

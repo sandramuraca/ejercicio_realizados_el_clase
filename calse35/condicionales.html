@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const edad = prompt('ingrese edad'); 
+    const tienAutorizacion = prompt('tiene autorizacion?');
+
+    const puedeVerPelicula = (parametroEdad, parametroTienAutorizacion) => {
+   /* if(parametroEdad <= 15){
+        return true;
+    
+    }if(tienAutorizacion === true){
+        return true;   
+    }else{
+    return false;
+    }*/
+    if (Number(parametroEdad)  >= 15 || parametroTienAutorizacion == "si"){
+        return true;
+    }
+    return false;
+}
+
+
+const miraPelicula = puedeVerPelicula(edad, tienAutorizacion);
+if(miraPelicula == true){
+console.log('Puede mirar la pelicular');
+}else{
+    console.log('No puede mirar la pelicula');
+}
+ 
+    </script>
+</body>
+</html>

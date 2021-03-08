@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //solucion sin funcion - opcion 1
+        let esVocal = prompt("ingrese una letra para saber si es una vocal");
+
+        if (esVocal == "a"||
+            esVocal == "e"||
+            esVocal == "i"||
+            esVocal == "o"||
+            esVocal == "u") 
+            {
+            alert("es una vocal")
+        } else {
+            alert(" NO es una vocal, es una consonante")
+        }
+
+        //opcion 2
+        let esVocal = prompt("ingrese una letra para saber si es una vocal");
+
+        if (esVocal == "a"||
+            esVocal == "e"||
+            esVocal == "i"||
+            esVocal == "o"||esVocal
+             == "u") 
+            {
+            alert(true)
+            } else {
+            alert(false)
+            }   
+
+        //solucion con funcion
+
+        let letra = prompt("ingrese una letra para saber si es una vocal");
+        
+        const esVocal = (parametroLetra) => {
+            if (esVocal == "a"||
+            esVocal == "e"||
+            esVocal == "i"||
+            esVocal == "o"||
+            esVocal == "u") 
+            {
+            return true
+            } else {
+            return false
+            }   
+        } 
+
+        const vocal = esVocal(letra);
+        if (vocal === true) {
+        console.log("Es una vocal");
+        } else {
+        console.log("NOO Es una vocal");
+        }
+
+            
+    </script>
+</body>
+</html>

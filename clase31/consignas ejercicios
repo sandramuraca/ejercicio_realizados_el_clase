@@ -1,0 +1,41 @@
+1)Realizá un programa para determinar si una 
+persona puede votar en base a su edad en las próximas 
+elecciones.
+
+Ingreso la edad -->prompt
+condicional --> si cumple con la edad (18)
+-----------------------------------------------------------------
+
+2)Se les dará un bono por antigüedad a empleadxs de una tienda. 
+Si tienen un año, se les dará $100; 
+si tienen 2 años, $200, y así sucesivamente hasta los 5 años. 
+
+Para quienes tengan más de 5 años, el bono será de $1000. 
+Realizá un programa que nos ayude a calcular el valor del bono.
+
+------------------------------------------------------------------
+3) Heladeria
+  
+Hacer un programa en un heladero calcule el costo del helado que 
+despachará. Para ésto le va a solicitar al cliente:
+Que ingrese por medio de un prompt: "Cantidad de helado"
+- 1 si quiere medio kilo de helado, ($100)
+- 2 si quiere un kilo de helado,    ($180)
+- 3 Si quiere dos kilos de helado.  ($350)
+
+Luego le dirá si quiere incluir:
+- Nombre del cliente
+- La cantidad de cucuruchos => Un prompt, puede ser 0 ($20 c/uno)
+- Galletitas para adornar / Toppins ("Si" / "No")   ($50, si es "Si")
+- Si lo va a enviar a su domicilio ($50)
+- Si paga con débito le hacen un descuento del 10% al monto final.
+
+Finalmente le pedirá 3 gustos.
+
+Por consola nos tiene dar este detalle:
+El cliente (Nombre del cliente) pidió (cantidad) kg. de helado.
+Los gustos son (gustos separados por comas)
+Y el precio a abonar es $(precio) (Y acá agregar, si lo hizo con tarjeta:
+"con tarjeta de débito" o bien "lo hará en efectivo")
+
+

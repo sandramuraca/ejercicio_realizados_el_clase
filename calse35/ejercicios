@@ -1,0 +1,24 @@
+puedeAvanzar(colorSemaforo)
+Crear una función puedeAvanzar que tome como argumento un string con el color del semáforo y devuelva true si puede avanzar o false si no. Si no se ingresa un color válido, debe devolver un string que diga: Error: color de semáforo inválido
+
+puedeAvanzar('verde')     // true
+puedeAvanzar('amarillo')  // false
+puedeAvanzar('rojo')      // false
+puedeAvanzar('lila')      // 'Error: color de semáforo inválido'
+-----------------------------------------------------------------------------
+
+esVocal(letra)
+Crear una función esVocal que tome como argumento un string letra y devuelva true si letra es una vocal o false si no lo es.
+
+esVocal('a') // true
+esVocal('n') // false
+
+------------------------------------------------------------------------------
+obtenerSensacion(temperatura)
+Crear una función obtenerSensacion que tome como argumento un número temperatura y devuelva un string dependiendo de la temperatura, con las siguientes reglas:
+Temperatura	Mensaje
+Menor a 0°	¡Está helando!
+Mayor o igual a 0° y menor a 15°	¡Hace frío!
+Mayor o igual a 15° y menor a 25°	Está lindo
+Mayor o igual a entre 25° y menor a 30°	Hace calor
+Mayor o igual de 30°	¡Hace mucho calor!

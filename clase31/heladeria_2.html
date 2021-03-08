@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const antiguedad= Number(prompt("Ingrese su antiguedad:"));
+        const bonoPorAnio= Number(100);
+
+       /* if (antiguedad >=5){
+            alert ("Usted recibirá un bono de $1000")
+        } else if (antiguedad >=4){
+            alert ("Usted recibirá un bono de $400")
+        }
+        else if (antiguedad >=3){
+            alert ("Usted recibirá un bono de $300")
+        }
+        else if (antiguedad >=2){
+            alert ("Usted recibirá un bono de $200")
+        } else {
+            alert ("Usted recibirá un bono de $100")
+        }*/
+
+        /// para no repetir tanto codigo
+
+        if (antiguedad >=5){
+            alert ("Usted recibirá un bono de $1000");
+        } else {
+            alert (`Usted recibirá un bono de ${antiguedad * bonoPorAnio}`);
+        }
+
+    </script>
+</body>
+</html>
