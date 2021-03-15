@@ -1,4 +1,4 @@
-/ingresar datos
+//ingresar datos
 //prompt('hola');
 // imprimir datos
 //alert('Hola');
